@@ -11,9 +11,11 @@ public interface BrowserConfig extends Config {
     @Key("browser.name")
     @DefaultValue("chrome")
     String getBrowserName();
+
     @Key("browser.version")
     @DefaultValue("120")
     String getBrowserVersion();
+
     @Key("browser.selenoidHost")
     String getSelenoidHost();
 }
